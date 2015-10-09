@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeController.h
 //  NewsReader
 //
 //  Created by 唐有欢 on 15/10/9.

@@ -1,5 +1,5 @@
 //
-//  ViewController.m
+//  HomeController.m
 //  NewsReader
 //
 //  Created by 唐有欢 on 15/10/9.
@@ -14,14 +14,16 @@
 
 @implementation HomeController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end

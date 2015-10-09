@@ -1,0 +1,13 @@
+//
+//  NewsReaderPrefixHeader.pch
+//  NewsReader
+//
+//  Created by 唐有欢 on 15/10/9.
+//  Copyright © 2015年 tangtech. All rights reserved.
+//
+
+#ifndef __OBJC__
+
+#import "MarcoDefine.h"
+
+#endif /* NewsReaderPrefixHeader_pch */
