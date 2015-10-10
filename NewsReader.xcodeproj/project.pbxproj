@@ -10,9 +10,7 @@
 		A4C75B991BC80C08004264AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B981BC80C08004264AA /* main.m */; };
 		A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9B1BC80C08004264AA /* AppDelegate.m */; };
 		A4C75B9F1BC80C08004264AA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9E1BC80C08004264AA /* HomeController.m */; };
-		A4C75BA21BC80C08004264AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C75BA01BC80C08004264AA /* Main.storyboard */; };
 		A4C75BA41BC80C08004264AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C75BA31BC80C08004264AA /* Assets.xcassets */; };
-		A4C75BA71BC80C08004264AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C75BA51BC80C08004264AA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +20,7 @@
 		A4C75B9B1BC80C08004264AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A4C75B9D1BC80C08004264AA /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		A4C75B9E1BC80C08004264AA /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
-		A4C75BA11BC80C08004264AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4C75BA31BC80C08004264AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4C75BA61BC80C08004264AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C75BA81BC80C08004264AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C75BB81BC81089004264AA /* MarcoDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarcoDefine.h; sourceTree = "<group>"; };
 		A4C75BBF1BC81474004264AA /* NewsReaderPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsReaderPrefixHeader.pch; sourceTree = "<group>"; };
@@ -90,16 +86,14 @@
 				A4C75BB01BC80C4F004264AA /* Images */,
 				A4C75BAF1BC80C3C004264AA /* InterfaceBuilder */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		A4C75BAF1BC80C3C004264AA /* InterfaceBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				A4C75BA51BC80C08004264AA /* LaunchScreen.storyboard */,
-				A4C75BA01BC80C08004264AA /* Main.storyboard */,
 			);
-			name = InterfaceBuilder;
+			path = InterfaceBuilder;
 			sourceTree = "<group>";
 		};
 		A4C75BB01BC80C4F004264AA /* Images */ = {
@@ -107,28 +101,28 @@
 			children = (
 				A4C75BA31BC80C08004264AA /* Assets.xcassets */,
 			);
-			name = Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		A4C75BB11BC80C59004264AA /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Vendors;
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 		A4C75BB21BC80C61004264AA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		A4C75BB31BC80C6A004264AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A4C75BB41BC80C72004264AA /* Controller */ = {
@@ -137,7 +131,7 @@
 				A4C75B9D1BC80C08004264AA /* HomeController.h */,
 				A4C75B9E1BC80C08004264AA /* HomeController.m */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		A4C75BB51BC80C83004264AA /* Global */ = {
@@ -145,14 +139,14 @@
 			children = (
 				A4C75BB71BC80FDE004264AA /* Marco */,
 			);
-			name = Global;
+			path = Global;
 			sourceTree = "<group>";
 		};
 		A4C75BB61BC80CA3004264AA /* Config */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Config;
+			path = Config;
 			sourceTree = "<group>";
 		};
 		A4C75BB71BC80FDE004264AA /* Marco */ = {
@@ -160,7 +154,7 @@
 			children = (
 				A4C75BB81BC81089004264AA /* MarcoDefine.h */,
 			);
-			name = Marco;
+			path = Marco;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C75BA71BC80C08004264AA /* LaunchScreen.storyboard in Resources */,
 				A4C75BA41BC80C08004264AA /* Assets.xcassets in Resources */,
-				A4C75BA21BC80C08004264AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +234,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A4C75BA01BC80C08004264AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4C75BA11BC80C08004264AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4C75BA51BC80C08004264AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4C75BA61BC80C08004264AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A4C75BA91BC80C08004264AA /* Debug */ = {
@@ -299,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -403,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -458,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -513,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -557,6 +530,7 @@
 				A4C75BAD1BC80C08004264AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
