@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89E2C3AF1BC92518001C1D01 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 89E2C3AE1BC92518001C1D01 /* README.md */; };
+		A491311F1BCA3C8E00511F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491311D1BCA3C8E00511F97 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		A49131201BCA3C8E00511F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491311E1BCA3C8E00511F97 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		A4C75B991BC80C08004264AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B981BC80C08004264AA /* main.m */; };
 		A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9B1BC80C08004264AA /* AppDelegate.m */; };
 		A4C75B9F1BC80C08004264AA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9E1BC80C08004264AA /* HomeController.m */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		89E2C3AE1BC92518001C1D01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A491311D1BCA3C8E00511F97 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A491311E1BCA3C8E00511F97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A4C75B941BC80C08004264AA /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C75B981BC80C08004264AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C75B9A1BC80C08004264AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,9 +46,9 @@
 		A4C75B8B1BC80C08004264AA = {
 			isa = PBXGroup;
 			children = (
-				89E2C3AE1BC92518001C1D01 /* README.md */,
 				A4C75B961BC80C08004264AA /* NewsReader */,
 				A4C75B951BC80C08004264AA /* Products */,
+				89E2C3AE1BC92518001C1D01 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +99,8 @@
 		A4C75BAF1BC80C3C004264AA /* InterfaceBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				A491311D1BCA3C8E00511F97 /* LaunchScreen.storyboard */,
+				A491311E1BCA3C8E00511F97 /* Main.storyboard */,
 			);
 			path = InterfaceBuilder;
 			sourceTree = "<group>";
@@ -219,7 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49131201BCA3C8E00511F97 /* Main.storyboard in Resources */,
 				A4C75BA41BC80C08004264AA /* Assets.xcassets in Resources */,
+				A491311F1BCA3C8E00511F97 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -336,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -391,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -501,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
