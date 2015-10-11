@@ -19,13 +19,12 @@
 		A49131391BCA8C0800511F97 /* AdvertInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131381BCA8C0800511F97 /* AdvertInfo.m */; settings = {ASSET_TAGS = (); }; };
 		A491313C1BCA8E8100511F97 /* ColumnInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A491313B1BCA8E8100511F97 /* ColumnInfo.m */; settings = {ASSET_TAGS = (); }; };
 		A491313F1BCA8EE000511F97 /* NewsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A491313E1BCA8EE000511F97 /* NewsInfo.m */; settings = {ASSET_TAGS = (); }; };
-		A49131441BCA97DD00511F97 /* BaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131431BCA97DD00511F97 /* BaseOperation.m */; settings = {ASSET_TAGS = (); }; };
-		A49131471BCAB12F00511F97 /* GetAdvert.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131461BCAB12F00511F97 /* GetAdvert.m */; settings = {ASSET_TAGS = (); }; };
-		A491314A1BCAB1D600511F97 /* GetColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131491BCAB1D600511F97 /* GetColumn.m */; settings = {ASSET_TAGS = (); }; };
-		A491314D1BCAB29500511F97 /* GetNews.m in Sources */ = {isa = PBXBuildFile; fileRef = A491314C1BCAB29500511F97 /* GetNews.m */; settings = {ASSET_TAGS = (); }; };
+		A491315A1BCABA6E00511F97 /* BaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131531BCABA6E00511F97 /* BaseOperation.m */; settings = {ASSET_TAGS = (); }; };
+		A491315B1BCABA6E00511F97 /* GetAdvert.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131551BCABA6E00511F97 /* GetAdvert.m */; settings = {ASSET_TAGS = (); }; };
+		A491315C1BCABA6E00511F97 /* GetColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131571BCABA6E00511F97 /* GetColumn.m */; settings = {ASSET_TAGS = (); }; };
+		A491315D1BCABA6E00511F97 /* GetNews.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131591BCABA6E00511F97 /* GetNews.m */; settings = {ASSET_TAGS = (); }; };
 		A4C75B991BC80C08004264AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B981BC80C08004264AA /* main.m */; };
 		A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9B1BC80C08004264AA /* AppDelegate.m */; };
-		A4C75B9F1BC80C08004264AA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9E1BC80C08004264AA /* HomeController.m */; };
 		A4C75BA41BC80C08004264AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C75BA31BC80C08004264AA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -53,20 +52,18 @@
 		A491313D1BCA8EE000511F97 /* NewsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsInfo.h; sourceTree = "<group>"; };
 		A491313E1BCA8EE000511F97 /* NewsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsInfo.m; sourceTree = "<group>"; };
 		A49131401BCA971400511F97 /* UrlDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlDefines.h; sourceTree = "<group>"; };
-		A49131421BCA97DD00511F97 /* BaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseOperation.h; sourceTree = "<group>"; };
-		A49131431BCA97DD00511F97 /* BaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseOperation.m; sourceTree = "<group>"; };
-		A49131451BCAB12F00511F97 /* GetAdvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAdvert.h; sourceTree = "<group>"; };
-		A49131461BCAB12F00511F97 /* GetAdvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAdvert.m; sourceTree = "<group>"; };
-		A49131481BCAB1D600511F97 /* GetColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetColumn.h; sourceTree = "<group>"; };
-		A49131491BCAB1D600511F97 /* GetColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetColumn.m; sourceTree = "<group>"; };
-		A491314B1BCAB29500511F97 /* GetNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNews.h; sourceTree = "<group>"; };
-		A491314C1BCAB29500511F97 /* GetNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNews.m; sourceTree = "<group>"; };
+		A49131521BCABA6E00511F97 /* BaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseOperation.h; sourceTree = "<group>"; };
+		A49131531BCABA6E00511F97 /* BaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseOperation.m; sourceTree = "<group>"; };
+		A49131541BCABA6E00511F97 /* GetAdvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAdvert.h; sourceTree = "<group>"; };
+		A49131551BCABA6E00511F97 /* GetAdvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAdvert.m; sourceTree = "<group>"; };
+		A49131561BCABA6E00511F97 /* GetColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetColumn.h; sourceTree = "<group>"; };
+		A49131571BCABA6E00511F97 /* GetColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetColumn.m; sourceTree = "<group>"; };
+		A49131581BCABA6E00511F97 /* GetNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNews.h; sourceTree = "<group>"; };
+		A49131591BCABA6E00511F97 /* GetNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNews.m; sourceTree = "<group>"; };
 		A4C75B941BC80C08004264AA /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C75B981BC80C08004264AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C75B9A1BC80C08004264AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4C75B9B1BC80C08004264AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4C75B9D1BC80C08004264AA /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
-		A4C75B9E1BC80C08004264AA /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		A4C75BA31BC80C08004264AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C75BA81BC80C08004264AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C75BBF1BC81474004264AA /* NewsReaderPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsReaderPrefixHeader.pch; sourceTree = "<group>"; };
@@ -100,19 +97,11 @@
 			path = JSONFramework;
 			sourceTree = "<group>";
 		};
-		A49131411BCA979A00511F97 /* Operation */ = {
+		A491315E1BCABA8C00511F97 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A49131421BCA97DD00511F97 /* BaseOperation.h */,
-				A49131431BCA97DD00511F97 /* BaseOperation.m */,
-				A49131451BCAB12F00511F97 /* GetAdvert.h */,
-				A49131461BCAB12F00511F97 /* GetAdvert.m */,
-				A49131481BCAB1D600511F97 /* GetColumn.h */,
-				A49131491BCAB1D600511F97 /* GetColumn.m */,
-				A491314B1BCAB29500511F97 /* GetNews.h */,
-				A491314C1BCAB29500511F97 /* GetNews.m */,
 			);
-			path = Operation;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		A4C75B8B1BC80C08004264AA = {
@@ -135,13 +124,12 @@
 		A4C75B961BC80C08004264AA /* NewsReader */ = {
 			isa = PBXGroup;
 			children = (
-				A49131411BCA979A00511F97 /* Operation */,
 				A4C75BB51BC80C83004264AA /* Global */,
-				A4C75BB41BC80C72004264AA /* Controller */,
-				A4C75BB31BC80C6A004264AA /* Model */,
-				A4C75BB21BC80C61004264AA /* ViewModel */,
 				A4C75BB11BC80C59004264AA /* Vendors */,
 				A4C75BAE1BC80C1C004264AA /* Resources */,
+				A4C75BB31BC80C6A004264AA /* Model */,
+				A4C75BB21BC80C61004264AA /* ViewModel */,
+				A491315E1BCABA8C00511F97 /* ViewController */,
 				A4C75B9A1BC80C08004264AA /* AppDelegate.h */,
 				A4C75B9B1BC80C08004264AA /* AppDelegate.m */,
 				A4C75BA81BC80C08004264AA /* Info.plist */,
@@ -197,6 +185,14 @@
 		A4C75BB21BC80C61004264AA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A49131521BCABA6E00511F97 /* BaseOperation.h */,
+				A49131531BCABA6E00511F97 /* BaseOperation.m */,
+				A49131541BCABA6E00511F97 /* GetAdvert.h */,
+				A49131551BCABA6E00511F97 /* GetAdvert.m */,
+				A49131561BCABA6E00511F97 /* GetColumn.h */,
+				A49131571BCABA6E00511F97 /* GetColumn.m */,
+				A49131581BCABA6E00511F97 /* GetNews.h */,
+				A49131591BCABA6E00511F97 /* GetNews.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -214,15 +210,6 @@
 				A491313E1BCA8EE000511F97 /* NewsInfo.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		A4C75BB41BC80C72004264AA /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A4C75B9D1BC80C08004264AA /* HomeController.h */,
-				A4C75B9E1BC80C08004264AA /* HomeController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		A4C75BB51BC80C83004264AA /* Global */ = {
@@ -313,23 +300,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A491314D1BCAB29500511F97 /* GetNews.m in Sources */,
 				A49131301BCA531C00511F97 /* JsonParser.m in Sources */,
-				A4C75B9F1BC80C08004264AA /* HomeController.m in Sources */,
 				A49131361BCA63F600511F97 /* BaseInfo.m in Sources */,
 				A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */,
-				A491314A1BCAB1D600511F97 /* GetColumn.m in Sources */,
-				A49131441BCA97DD00511F97 /* BaseOperation.m in Sources */,
+				A491315C1BCABA6E00511F97 /* GetColumn.m in Sources */,
 				89E2C3AF1BC92518001C1D01 /* README.md in Sources */,
 				A491313C1BCA8E8100511F97 /* ColumnInfo.m in Sources */,
 				A4C75B991BC80C08004264AA /* main.m in Sources */,
-				A49131471BCAB12F00511F97 /* GetAdvert.m in Sources */,
 				A49131321BCA531C00511F97 /* JsonWriter.m in Sources */,
 				A491312F1BCA531C00511F97 /* JsonBase.m in Sources */,
 				A49131311BCA531C00511F97 /* JsonUtility.m in Sources */,
 				A491312E1BCA531C00511F97 /* JSON.m in Sources */,
+				A491315B1BCABA6E00511F97 /* GetAdvert.m in Sources */,
+				A491315A1BCABA6E00511F97 /* BaseOperation.m in Sources */,
 				A491313F1BCA8EE000511F97 /* NewsInfo.m in Sources */,
 				A49131391BCA8C0800511F97 /* AdvertInfo.m in Sources */,
+				A491315D1BCABA6E00511F97 /* GetNews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
