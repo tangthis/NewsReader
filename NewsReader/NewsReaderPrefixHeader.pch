@@ -9,5 +9,7 @@
 #ifdef __OBJC__
 
 #import "Defines.h"
+#import "UrlDefines.h"
+#import "JsonUtility.h"
 
 #endif /* NewsReaderPrefixHeader_pch */
