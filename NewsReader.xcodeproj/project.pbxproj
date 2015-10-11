@@ -15,6 +15,10 @@
 		A49131301BCA531C00511F97 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131291BCA531C00511F97 /* JsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A49131311BCA531C00511F97 /* JsonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A491312B1BCA531C00511F97 /* JsonUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A49131321BCA531C00511F97 /* JsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A491312D1BCA531C00511F97 /* JsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A49131361BCA63F600511F97 /* BaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131351BCA63F600511F97 /* BaseInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A49131391BCA8C0800511F97 /* AdvertInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131381BCA8C0800511F97 /* AdvertInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A491313C1BCA8E8100511F97 /* ColumnInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A491313B1BCA8E8100511F97 /* ColumnInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A491313F1BCA8EE000511F97 /* NewsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A491313E1BCA8EE000511F97 /* NewsInfo.m */; settings = {ASSET_TAGS = (); }; };
 		A4C75B991BC80C08004264AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B981BC80C08004264AA /* main.m */; };
 		A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9B1BC80C08004264AA /* AppDelegate.m */; };
 		A4C75B9F1BC80C08004264AA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9E1BC80C08004264AA /* HomeController.m */; };
@@ -36,6 +40,14 @@
 		A491312C1BCA531C00511F97 /* JsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonWriter.h; sourceTree = "<group>"; };
 		A491312D1BCA531C00511F97 /* JsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonWriter.m; sourceTree = "<group>"; };
 		A49131331BCA5D4500511F97 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		A49131341BCA63F600511F97 /* BaseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInfo.h; sourceTree = "<group>"; };
+		A49131351BCA63F600511F97 /* BaseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInfo.m; sourceTree = "<group>"; };
+		A49131371BCA8C0800511F97 /* AdvertInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertInfo.h; sourceTree = "<group>"; };
+		A49131381BCA8C0800511F97 /* AdvertInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertInfo.m; sourceTree = "<group>"; };
+		A491313A1BCA8E8100511F97 /* ColumnInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnInfo.h; sourceTree = "<group>"; };
+		A491313B1BCA8E8100511F97 /* ColumnInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnInfo.m; sourceTree = "<group>"; };
+		A491313D1BCA8EE000511F97 /* NewsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsInfo.h; sourceTree = "<group>"; };
+		A491313E1BCA8EE000511F97 /* NewsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsInfo.m; sourceTree = "<group>"; };
 		A4C75B941BC80C08004264AA /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C75B981BC80C08004264AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C75B9A1BC80C08004264AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +175,14 @@
 		A4C75BB31BC80C6A004264AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A49131341BCA63F600511F97 /* BaseInfo.h */,
+				A49131351BCA63F600511F97 /* BaseInfo.m */,
+				A49131371BCA8C0800511F97 /* AdvertInfo.h */,
+				A49131381BCA8C0800511F97 /* AdvertInfo.m */,
+				A491313A1BCA8E8100511F97 /* ColumnInfo.h */,
+				A491313B1BCA8E8100511F97 /* ColumnInfo.m */,
+				A491313D1BCA8EE000511F97 /* NewsInfo.h */,
+				A491313E1BCA8EE000511F97 /* NewsInfo.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,13 +285,17 @@
 			files = (
 				A49131301BCA531C00511F97 /* JsonParser.m in Sources */,
 				A4C75B9F1BC80C08004264AA /* HomeController.m in Sources */,
+				A49131361BCA63F600511F97 /* BaseInfo.m in Sources */,
 				A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */,
 				89E2C3AF1BC92518001C1D01 /* README.md in Sources */,
+				A491313C1BCA8E8100511F97 /* ColumnInfo.m in Sources */,
 				A4C75B991BC80C08004264AA /* main.m in Sources */,
 				A49131321BCA531C00511F97 /* JsonWriter.m in Sources */,
 				A491312F1BCA531C00511F97 /* JsonBase.m in Sources */,
 				A49131311BCA531C00511F97 /* JsonUtility.m in Sources */,
 				A491312E1BCA531C00511F97 /* JSON.m in Sources */,
+				A491313F1BCA8EE000511F97 /* NewsInfo.m in Sources */,
+				A49131391BCA8C0800511F97 /* AdvertInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
