@@ -10,6 +10,11 @@
 		89E2C3AF1BC92518001C1D01 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 89E2C3AE1BC92518001C1D01 /* README.md */; };
 		A491311F1BCA3C8E00511F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491311D1BCA3C8E00511F97 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		A49131201BCA3C8E00511F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A491311E1BCA3C8E00511F97 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		A491312E1BCA531C00511F97 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131251BCA531C00511F97 /* JSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A491312F1BCA531C00511F97 /* JsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131271BCA531C00511F97 /* JsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A49131301BCA531C00511F97 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131291BCA531C00511F97 /* JsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A49131311BCA531C00511F97 /* JsonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A491312B1BCA531C00511F97 /* JsonUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A49131321BCA531C00511F97 /* JsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A491312D1BCA531C00511F97 /* JsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A4C75B991BC80C08004264AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B981BC80C08004264AA /* main.m */; };
 		A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9B1BC80C08004264AA /* AppDelegate.m */; };
 		A4C75B9F1BC80C08004264AA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9E1BC80C08004264AA /* HomeController.m */; };
@@ -20,6 +25,17 @@
 		89E2C3AE1BC92518001C1D01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A491311D1BCA3C8E00511F97 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A491311E1BCA3C8E00511F97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A49131241BCA531C00511F97 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		A49131251BCA531C00511F97 /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
+		A49131261BCA531C00511F97 /* JsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonBase.h; sourceTree = "<group>"; };
+		A49131271BCA531C00511F97 /* JsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonBase.m; sourceTree = "<group>"; };
+		A49131281BCA531C00511F97 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		A49131291BCA531C00511F97 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		A491312A1BCA531C00511F97 /* JsonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonUtility.h; sourceTree = "<group>"; };
+		A491312B1BCA531C00511F97 /* JsonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonUtility.m; sourceTree = "<group>"; };
+		A491312C1BCA531C00511F97 /* JsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonWriter.h; sourceTree = "<group>"; };
+		A491312D1BCA531C00511F97 /* JsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonWriter.m; sourceTree = "<group>"; };
+		A49131331BCA5D4500511F97 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		A4C75B941BC80C08004264AA /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C75B981BC80C08004264AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C75B9A1BC80C08004264AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,7 +44,6 @@
 		A4C75B9E1BC80C08004264AA /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		A4C75BA31BC80C08004264AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C75BA81BC80C08004264AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4C75BB81BC81089004264AA /* MarcoDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarcoDefine.h; sourceTree = "<group>"; };
 		A4C75BBF1BC81474004264AA /* NewsReaderPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsReaderPrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +58,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A49131231BCA50BF00511F97 /* JSONFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A49131241BCA531C00511F97 /* JSON.h */,
+				A49131251BCA531C00511F97 /* JSON.m */,
+				A49131261BCA531C00511F97 /* JsonBase.h */,
+				A49131271BCA531C00511F97 /* JsonBase.m */,
+				A49131281BCA531C00511F97 /* JsonParser.h */,
+				A49131291BCA531C00511F97 /* JsonParser.m */,
+				A491312A1BCA531C00511F97 /* JsonUtility.h */,
+				A491312B1BCA531C00511F97 /* JsonUtility.m */,
+				A491312C1BCA531C00511F97 /* JsonWriter.h */,
+				A491312D1BCA531C00511F97 /* JsonWriter.m */,
+			);
+			path = JSONFramework;
+			sourceTree = "<group>";
+		};
 		A4C75B8B1BC80C08004264AA = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +148,7 @@
 		A4C75BB11BC80C59004264AA /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				A49131231BCA50BF00511F97 /* JSONFramework */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -146,7 +179,7 @@
 		A4C75BB51BC80C83004264AA /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				A4C75BB71BC80FDE004264AA /* Marco */,
+				A49131331BCA5D4500511F97 /* Defines.h */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -156,14 +189,6 @@
 			children = (
 			);
 			path = Config;
-			sourceTree = "<group>";
-		};
-		A4C75BB71BC80FDE004264AA /* Marco */ = {
-			isa = PBXGroup;
-			children = (
-				A4C75BB81BC81089004264AA /* MarcoDefine.h */,
-			);
-			path = Marco;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,10 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49131301BCA531C00511F97 /* JsonParser.m in Sources */,
 				A4C75B9F1BC80C08004264AA /* HomeController.m in Sources */,
 				A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */,
 				89E2C3AF1BC92518001C1D01 /* README.md in Sources */,
 				A4C75B991BC80C08004264AA /* main.m in Sources */,
+				A49131321BCA531C00511F97 /* JsonWriter.m in Sources */,
+				A491312F1BCA531C00511F97 /* JsonBase.m in Sources */,
+				A49131311BCA531C00511F97 /* JsonUtility.m in Sources */,
+				A491312E1BCA531C00511F97 /* JSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -346,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -402,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -458,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -514,6 +548,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = NewsReader/NewsReaderPrefixHeader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

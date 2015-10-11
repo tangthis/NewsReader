@@ -5,9 +5,9 @@
 //  Created by 唐有欢 on 15/10/9.
 //  Copyright © 2015年 tangtech. All rights reserved.
 //
+#import <Availability.h>
+#ifdef __OBJC__
 
-#ifndef __OBJC__
-
-#import "MarcoDefine.h"
+#import "Defines.h"
 
 #endif /* NewsReaderPrefixHeader_pch */
