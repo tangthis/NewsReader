@@ -67,6 +67,7 @@
     
 }
 
+//使用delegate异步发送请求
 - (void)executeOp
 {
     _connection = [[NSURLConnection alloc] initWithRequest:[self urlRequest] delegate:self];
@@ -112,25 +113,27 @@
 
 #pragma mark NSURLConnectionDelegage methods
 
+// 收到回应
 - (void)connection:(NSURLConnection *)aConnection didReceiveResponse:(NSURLResponse *)aResponse
 {
     NSHTTPURLResponse *response = (NSHTTPURLResponse *)aResponse;
     NSString *statusCode = [NSString stringWithFormat:@"%ld",(long)[response statusCode]];
     
     _statusCode = [statusCode intValue];
+    _receiveData = [[NSMutableData alloc] init];
     if (_statusCode == 200 || _statusCode == 206) {
         _totalLength = [response expectedContentLength];
     }
     BASE_INFO_FUN(statusCode);
 }
-
+// 接收数据
 - (void)connection:(NSURLConnection *)aConn didReceiveData:(NSData *)data
 {
     BASE_INFO_FUN(([NSString stringWithFormat:@"%lu", (unsigned long)data.length]));
     [_receiveData appendData:data];
     [self parseProgress:_receiveData.length];
 }
-
+// 数据接收完毕
 - (void)connectionDidFinishLoading:(NSURLConnection *)aConn
 {
     BASE_INFO_FUN([[NSString alloc] initWithData:_receiveData encoding:NSUTF8StringEncoding]);
@@ -153,7 +156,7 @@
     _connection = nil;
     _receiveData = nil;
 }
-
+// 返回错误
 - (void)connection:(NSURLConnection *)aConn didFailWithError:(NSError *)error
 {
     [self parseFail:[error localizedDescription]];
