@@ -10,6 +10,7 @@ NewsReader -- 新闻App
 > * 建立操作Operation
 > * 建立视图View
 > * 建立控制器Controller
+> * 登录功能实现
 
 ###MVVM架构
 Model:DTO(数据传输对象)<br/>
