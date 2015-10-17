@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		89E2C3AF1BC92518001C1D01 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 89E2C3AE1BC92518001C1D01 /* README.md */; };
+		A474B7621BD24DC9009A5F3B /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7551BD24DC9009A5F3B /* Activity.m */; settings = {ASSET_TAGS = (); }; };
+		A474B7631BD24DC9009A5F3B /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7571BD24DC9009A5F3B /* ActivityIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A474B7641BD24DC9009A5F3B /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7591BD24DC9009A5F3B /* Date.m */; settings = {ASSET_TAGS = (); }; };
+		A474B7651BD24DC9009A5F3B /* AppSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B75B1BD24DC9009A5F3B /* AppSetting.m */; settings = {ASSET_TAGS = (); }; };
+		A474B7661BD24DC9009A5F3B /* FileUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B75D1BD24DC9009A5F3B /* FileUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A474B7671BD24DC9009A5F3B /* ButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B75F1BD24DC9009A5F3B /* ButtonHelper.m */; settings = {ASSET_TAGS = (); }; };
+		A474B7681BD24DC9009A5F3B /* String.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7611BD24DC9009A5F3B /* String.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A491312E1BCA531C00511F97 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131251BCA531C00511F97 /* JSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A491312F1BCA531C00511F97 /* JsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131271BCA531C00511F97 /* JsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A49131301BCA531C00511F97 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131291BCA531C00511F97 /* JsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -55,6 +62,20 @@
 
 /* Begin PBXFileReference section */
 		89E2C3AE1BC92518001C1D01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A474B7541BD24DC9009A5F3B /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
+		A474B7551BD24DC9009A5F3B /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
+		A474B7561BD24DC9009A5F3B /* ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicator.h; sourceTree = "<group>"; };
+		A474B7571BD24DC9009A5F3B /* ActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicator.m; sourceTree = "<group>"; };
+		A474B7581BD24DC9009A5F3B /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		A474B7591BD24DC9009A5F3B /* Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Date.m; sourceTree = "<group>"; };
+		A474B75A1BD24DC9009A5F3B /* AppSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSetting.h; sourceTree = "<group>"; };
+		A474B75B1BD24DC9009A5F3B /* AppSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSetting.m; sourceTree = "<group>"; };
+		A474B75C1BD24DC9009A5F3B /* FileUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtility.h; sourceTree = "<group>"; };
+		A474B75D1BD24DC9009A5F3B /* FileUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtility.m; sourceTree = "<group>"; };
+		A474B75E1BD24DC9009A5F3B /* ButtonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonHelper.h; sourceTree = "<group>"; };
+		A474B75F1BD24DC9009A5F3B /* ButtonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonHelper.m; sourceTree = "<group>"; };
+		A474B7601BD24DC9009A5F3B /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		A474B7611BD24DC9009A5F3B /* String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String.m; sourceTree = "<group>"; };
 		A49131241BCA531C00511F97 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		A49131251BCA531C00511F97 /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
 		A49131261BCA531C00511F97 /* JsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonBase.h; sourceTree = "<group>"; };
@@ -151,6 +172,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A474B7531BD24A24009A5F3B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A474B7541BD24DC9009A5F3B /* Activity.h */,
+				A474B7551BD24DC9009A5F3B /* Activity.m */,
+				A474B7561BD24DC9009A5F3B /* ActivityIndicator.h */,
+				A474B7571BD24DC9009A5F3B /* ActivityIndicator.m */,
+				A474B7581BD24DC9009A5F3B /* Date.h */,
+				A474B7591BD24DC9009A5F3B /* Date.m */,
+				A474B75A1BD24DC9009A5F3B /* AppSetting.h */,
+				A474B75B1BD24DC9009A5F3B /* AppSetting.m */,
+				A474B75C1BD24DC9009A5F3B /* FileUtility.h */,
+				A474B75D1BD24DC9009A5F3B /* FileUtility.m */,
+				A474B75E1BD24DC9009A5F3B /* ButtonHelper.h */,
+				A474B75F1BD24DC9009A5F3B /* ButtonHelper.m */,
+				A474B7601BD24DC9009A5F3B /* String.h */,
+				A474B7611BD24DC9009A5F3B /* String.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		A49131231BCA50BF00511F97 /* JSONFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				A4C75BB51BC80C83004264AA /* Global */,
+				A474B7531BD24A24009A5F3B /* Util */,
 				A4C75BB11BC80C59004264AA /* Vendors */,
 				A4C75BAE1BC80C1C004264AA /* Resources */,
 				A4C75BB31BC80C6A004264AA /* Model */,
@@ -453,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A474B7661BD24DC9009A5F3B /* FileUtility.m in Sources */,
 				A4C1BE561BCD3A6900A35706 /* BaseCell.m in Sources */,
 				A49131301BCA531C00511F97 /* JsonParser.m in Sources */,
 				A49131361BCA63F600511F97 /* BaseInfo.m in Sources */,
@@ -465,22 +509,27 @@
 				A4C1BE2C1BCD38D700A35706 /* BasePage.m in Sources */,
 				A4C1BE441BCD396000A35706 /* DetailPage.m in Sources */,
 				A491315C1BCABA6E00511F97 /* GetColumn.m in Sources */,
+				A474B7631BD24DC9009A5F3B /* ActivityIndicator.m in Sources */,
 				89E2C3AF1BC92518001C1D01 /* README.md in Sources */,
 				A4C1BE531BCD3A2400A35706 /* ReaderWidget.m in Sources */,
+				A474B7641BD24DC9009A5F3B /* Date.m in Sources */,
 				A4C1BE4D1BCD3A0B00A35706 /* ColumnBarWidget.m in Sources */,
 				A4C1BE5F1BCD3C6400A35706 /* UserInfo.m in Sources */,
 				A4C1BE4A1BCD39DD00A35706 /* TableWidget.m in Sources */,
 				A4C1BE501BCD3A1700A35706 /* NewsWidget.m in Sources */,
 				A4C1BE351BCD390F00A35706 /* NewsPage.m in Sources */,
+				A474B7671BD24DC9009A5F3B /* ButtonHelper.m in Sources */,
 				A4C1BE321BCD390100A35706 /* AdvertPage.m in Sources */,
 				A491313C1BCA8E8100511F97 /* ColumnInfo.m in Sources */,
 				A4C75B991BC80C08004264AA /* main.m in Sources */,
 				A49131321BCA531C00511F97 /* JsonWriter.m in Sources */,
 				A491312F1BCA531C00511F97 /* JsonBase.m in Sources */,
+				A474B7621BD24DC9009A5F3B /* Activity.m in Sources */,
 				A49131311BCA531C00511F97 /* JsonUtility.m in Sources */,
 				A491312E1BCA531C00511F97 /* JSON.m in Sources */,
 				A4C1BE471BCD39C500A35706 /* BaseWidget.m in Sources */,
 				A491315B1BCABA6E00511F97 /* GetAdvert.m in Sources */,
+				A474B7651BD24DC9009A5F3B /* AppSetting.m in Sources */,
 				A4C1BE3B1BCD393300A35706 /* VoicePage.m in Sources */,
 				A4C1BE411BCD395500A35706 /* MyPage.m in Sources */,
 				A491315A1BCABA6E00511F97 /* BaseOperation.m in Sources */,
@@ -489,6 +538,7 @@
 				A491313F1BCA8EE000511F97 /* NewsInfo.m in Sources */,
 				A49131391BCA8C0800511F97 /* AdvertInfo.m in Sources */,
 				A491315D1BCABA6E00511F97 /* GetNews.m in Sources */,
+				A474B7681BD24DC9009A5F3B /* String.m in Sources */,
 				A4C1BE3E1BCD394A00A35706 /* DiscoveryPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

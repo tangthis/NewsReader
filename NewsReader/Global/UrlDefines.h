@@ -20,7 +20,7 @@
 #define BaseHost    @"http://www.tangtech.com"
 #define BasePort    @""
 #else
-#define BaseHost    @"http://127.0.0.1"
+#define BaseHost    @"http://192.168.1.101"
 #define BasePort    @":80"
 #endif
 

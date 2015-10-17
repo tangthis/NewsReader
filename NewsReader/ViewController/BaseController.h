@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseOperation.h"
+#import "Activity.h"
 @interface BaseController : UIViewController<BaseOperationDelegate>{
     BaseOperation *_operation;
+    Activity *_activity;
 }
 
+- (void)showIndicator:(NSString *)tipMessage
+             autoHide:(BOOL)hide
+           afterDelay:(BOOL)delay;
+- (void)hideIndicator;
 
 @end

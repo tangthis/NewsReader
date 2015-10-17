@@ -17,8 +17,25 @@
 {
     [super viewDidLoad];
 }
+
+-(BOOL)validate
+{
+    BOOL isValidate = YES;
+    if(_userName.text.length <= 0 || _password.text.length <= 0){
+        isValidate = NO;
+        [self showIndicator:LoginCheckTip
+                   autoHide:YES
+                 afterDelay:YES];
+    }
+    return isValidate;
+}
+
 - (IBAction)doLoginEvent:(id)sender {
     BASE_INFO_FUN(@"login");
+    if (![self validate]) {
+        return;
+    }
+    
     NSString *body = [NSString stringWithFormat:@"username=%@&password=%@",_userName.text,
                       _password.text];
     
