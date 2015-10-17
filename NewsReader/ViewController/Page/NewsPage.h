@@ -8,6 +8,8 @@
 
 #import "BasePage.h"
 
-@interface NewsPage : BasePage
+@interface NewsPage : BasePage{
+    
+}
 
 @end

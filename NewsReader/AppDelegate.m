@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LoginPage.h"
+#import "AdvertPage.h"
 @interface AppDelegate ()
 
 @end
@@ -15,10 +16,23 @@
 @implementation AppDelegate
 
 
++ (AppDelegate *)appDeg
+{
+    return  (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
+
+-(void) showHomePage
+{
+    LoginPage *homePage = [[LoginPage alloc] init];
+    self.window.rootViewController = homePage;
+    [self.window makeKeyAndVisible];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //创建程序window
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[LoginPage alloc] init];
+    //self.window.rootViewController = [[LoginPage alloc] init];
+    [AdvertPage showAdvertPage];
     [self.window makeKeyAndVisible];
     return YES;
 }

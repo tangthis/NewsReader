@@ -15,6 +15,10 @@
 		A474B7661BD24DC9009A5F3B /* FileUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B75D1BD24DC9009A5F3B /* FileUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A474B7671BD24DC9009A5F3B /* ButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B75F1BD24DC9009A5F3B /* ButtonHelper.m */; settings = {ASSET_TAGS = (); }; };
 		A474B7681BD24DC9009A5F3B /* String.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7611BD24DC9009A5F3B /* String.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A474B76A1BD2795B009A5F3B /* AdvertPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A474B7691BD2795B009A5F3B /* AdvertPage.xib */; settings = {ASSET_TAGS = (); }; };
+		A474B76F1BD28119009A5F3B /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B76C1BD28119009A5F3B /* Global.m */; settings = {ASSET_TAGS = (); }; };
+		A474B7701BD28119009A5F3B /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B76E1BD28119009A5F3B /* Download.m */; settings = {ASSET_TAGS = (); }; };
+		A474B7731BD284C9009A5F3B /* GetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7721BD284C9009A5F3B /* GetImage.m */; settings = {ASSET_TAGS = (); }; };
 		A491312E1BCA531C00511F97 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131251BCA531C00511F97 /* JSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A491312F1BCA531C00511F97 /* JsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131271BCA531C00511F97 /* JsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A49131301BCA531C00511F97 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A49131291BCA531C00511F97 /* JsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -76,6 +80,13 @@
 		A474B75F1BD24DC9009A5F3B /* ButtonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonHelper.m; sourceTree = "<group>"; };
 		A474B7601BD24DC9009A5F3B /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
 		A474B7611BD24DC9009A5F3B /* String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String.m; sourceTree = "<group>"; };
+		A474B7691BD2795B009A5F3B /* AdvertPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertPage.xib; sourceTree = "<group>"; };
+		A474B76B1BD28119009A5F3B /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		A474B76C1BD28119009A5F3B /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		A474B76D1BD28119009A5F3B /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		A474B76E1BD28119009A5F3B /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
+		A474B7711BD284C9009A5F3B /* GetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetImage.h; sourceTree = "<group>"; };
+		A474B7721BD284C9009A5F3B /* GetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetImage.m; sourceTree = "<group>"; };
 		A49131241BCA531C00511F97 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		A49131251BCA531C00511F97 /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
 		A49131261BCA531C00511F97 /* JsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonBase.h; sourceTree = "<group>"; };
@@ -349,6 +360,7 @@
 			isa = PBXGroup;
 			children = (
 				A4C1BE661BCD46CE00A35706 /* LoginPage.xib */,
+				A474B7691BD2795B009A5F3B /* AdvertPage.xib */,
 			);
 			path = InterfaceBuilder;
 			sourceTree = "<group>";
@@ -383,6 +395,8 @@
 				A49131591BCABA6E00511F97 /* GetNews.m */,
 				A4C1BE601BCD453D00A35706 /* Login.h */,
 				A4C1BE611BCD453D00A35706 /* Login.m */,
+				A474B7711BD284C9009A5F3B /* GetImage.h */,
+				A474B7721BD284C9009A5F3B /* GetImage.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -407,6 +421,10 @@
 		A4C75BB51BC80C83004264AA /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				A474B76B1BD28119009A5F3B /* Global.h */,
+				A474B76C1BD28119009A5F3B /* Global.m */,
+				A474B76D1BD28119009A5F3B /* Download.h */,
+				A474B76E1BD28119009A5F3B /* Download.m */,
 				A49131331BCA5D4500511F97 /* Defines.h */,
 				A49131401BCA971400511F97 /* UrlDefines.h */,
 			);
@@ -481,6 +499,7 @@
 			files = (
 				A4C1BE6F1BCD4C7100A35706 /* login_button@2x.png in Resources */,
 				A4C1BE671BCD46CE00A35706 /* LoginPage.xib in Resources */,
+				A474B76A1BD2795B009A5F3B /* AdvertPage.xib in Resources */,
 				A4C1BE701BCD4C7100A35706 /* login_forgot_button@2x.png in Resources */,
 				A4C75BA41BC80C08004264AA /* Assets.xcassets in Resources */,
 				A4C1BE721BCD4C7100A35706 /* login_username_icon@2x.png in Resources */,
@@ -523,6 +542,7 @@
 				A491313C1BCA8E8100511F97 /* ColumnInfo.m in Sources */,
 				A4C75B991BC80C08004264AA /* main.m in Sources */,
 				A49131321BCA531C00511F97 /* JsonWriter.m in Sources */,
+				A474B76F1BD28119009A5F3B /* Global.m in Sources */,
 				A491312F1BCA531C00511F97 /* JsonBase.m in Sources */,
 				A474B7621BD24DC9009A5F3B /* Activity.m in Sources */,
 				A49131311BCA531C00511F97 /* JsonUtility.m in Sources */,
@@ -530,12 +550,14 @@
 				A4C1BE471BCD39C500A35706 /* BaseWidget.m in Sources */,
 				A491315B1BCABA6E00511F97 /* GetAdvert.m in Sources */,
 				A474B7651BD24DC9009A5F3B /* AppSetting.m in Sources */,
+				A474B7731BD284C9009A5F3B /* GetImage.m in Sources */,
 				A4C1BE3B1BCD393300A35706 /* VoicePage.m in Sources */,
 				A4C1BE411BCD395500A35706 /* MyPage.m in Sources */,
 				A491315A1BCABA6E00511F97 /* BaseOperation.m in Sources */,
 				A4C1BE261BCD37CB00A35706 /* BaseController.m in Sources */,
 				A4C1BE2F1BCD38E700A35706 /* HomePage.m in Sources */,
 				A491313F1BCA8EE000511F97 /* NewsInfo.m in Sources */,
+				A474B7701BD28119009A5F3B /* Download.m in Sources */,
 				A49131391BCA8C0800511F97 /* AdvertInfo.m in Sources */,
 				A491315D1BCABA6E00511F97 /* GetNews.m in Sources */,
 				A474B7681BD24DC9009A5F3B /* String.m in Sources */,

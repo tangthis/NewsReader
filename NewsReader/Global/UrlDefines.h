@@ -30,7 +30,7 @@
 #define BaseServer2 @"http://c.m.163.com/nc/article/"
 
 #define LoginURL    BaseURL "login.json"
-#define AdvertURL   BaseURL"/advert.json?width=%ld&height=%ld"
+#define AdvertURL   BaseURL "advert.json?width=%ld&height=%ld"
 #define ColumnURL   BaseURL "column.json"
 #define NewsURLFmt  BaseURL "news_%@.json"
 #define DetailURLFmt BaseServer2 "%@/full.html"

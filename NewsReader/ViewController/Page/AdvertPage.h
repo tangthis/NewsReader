@@ -8,6 +8,12 @@
 
 #import "BasePage.h"
 
-@interface AdvertPage : BasePage
+@interface AdvertPage : BasePage{
+    IBOutlet UIImageView *_imageView;
+}
+
++(BOOL)canShowAdvertPage;
+
++(void)showAdvertPage;
 
 @end
