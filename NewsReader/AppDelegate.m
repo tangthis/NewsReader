@@ -24,7 +24,8 @@
 -(void) showHomePage
 {
     LoginPage *homePage = [[LoginPage alloc] init];
-    self.window.rootViewController = homePage;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:homePage];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
 }
 

@@ -16,6 +16,8 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    [self setNavigationLeft:@"NavigationBack.png" sel:nil];
+    [self setNavigationRight:@"NavigationSquare.png"];
 }
 
 -(BOOL)validate

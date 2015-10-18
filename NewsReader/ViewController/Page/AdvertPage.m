@@ -14,6 +14,18 @@
 
 @implementation AdvertPage
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+}
+
 +(BOOL)canShowAdvertPage
 {
     NSString *dateString = [AppSetting getValue:AdvertKey];

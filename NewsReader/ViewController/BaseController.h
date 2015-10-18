@@ -19,4 +19,10 @@
            afterDelay:(BOOL)delay;
 - (void)hideIndicator;
 
+// 导航栏设置
+- (void)setNavigationTitleImage:(NSString *)imageName;
+- (void)setNavigationLeft:(NSString *)imageName sel:(SEL)sel;
+- (void)setNavigationRight:(NSString *)imageName;
+- (void)setStatusBarStyle:(UIStatusBarStyle)style;
+
 @end
