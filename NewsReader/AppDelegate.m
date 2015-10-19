@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "LoginPage.h"
 #import "AdvertPage.h"
+#import "HomePage.h"
 @interface AppDelegate ()
 
 @end
@@ -23,9 +24,9 @@
 
 -(void) showHomePage
 {
-    LoginPage *homePage = [[LoginPage alloc] init];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:homePage];
-    self.window.rootViewController = navController;
+    HomePage *homePage = [[HomePage alloc] init];
+//    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:homePage];
+    self.window.rootViewController = homePage;
     [self.window makeKeyAndVisible];
 }
 

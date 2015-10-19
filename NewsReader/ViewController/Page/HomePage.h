@@ -8,6 +8,6 @@
 
 #import "BasePage.h"
 
-@interface HomePage : BasePage
+@interface HomePage : UITabBarController
 
 @end
