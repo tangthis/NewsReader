@@ -7,7 +7,22 @@
 //
 
 #import "BaseWidget.h"
+#import "ButtonHelper.h"
 
-@interface ColumnBarWidget : BaseWidget
+@protocol ColumnBarDelegate;
+@interface ColumnBarWidget : BaseWidget {
+    IBOutlet UIScrollView   *_scrollView;
+    ButtonHelper          *_btnHelper;
+}
+
+@property(nonatomic, assign) NSInteger      pageIndex;
+@property(nonatomic, assign) id<ColumnBarDelegate> delegate;
+
+@end
+
+
+@protocol ColumnBarDelegate <NSObject>
+
+- (void)didSelect:(NSInteger)pageIndex;
 
 @end

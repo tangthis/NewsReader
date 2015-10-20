@@ -24,5 +24,6 @@
 - (void)setNavigationLeft:(NSString *)imageName sel:(SEL)sel;
 - (void)setNavigationRight:(NSString *)imageName;
 - (void)setStatusBarStyle:(UIStatusBarStyle)style;
+- (void)opSuccess:(id)data;
 
 @end

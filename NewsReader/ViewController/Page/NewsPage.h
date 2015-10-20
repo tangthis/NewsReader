@@ -7,9 +7,11 @@
 //
 
 #import "BasePage.h"
-
+#import "ColumnBarWidget.h"
 @interface NewsPage : BasePage{
     
+    IBOutlet UIView *_backBarView;
+    ColumnBarWidget *_barWidget;
 }
 
 @end

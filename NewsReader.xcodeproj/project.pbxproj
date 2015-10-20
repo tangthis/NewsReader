@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		89E2C3AF1BC92518001C1D01 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 89E2C3AE1BC92518001C1D01 /* README.md */; };
+		A41216CD1BD6879C00208201 /* ColumnBarLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41216CB1BD6879C00208201 /* ColumnBarLeft@2x.png */; settings = {ASSET_TAGS = (); }; };
+		A41216CE1BD6879C00208201 /* ColumnBarRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41216CC1BD6879C00208201 /* ColumnBarRight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		A41216D01BD6993000208201 /* ColumnBarWidget.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41216CF1BD6993000208201 /* ColumnBarWidget.xib */; settings = {ASSET_TAGS = (); }; };
+		A472300C1BD683A700B4CF4E /* NewsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A472300B1BD683A700B4CF4E /* NewsPage.xib */; settings = {ASSET_TAGS = (); }; };
 		A474B7621BD24DC9009A5F3B /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7551BD24DC9009A5F3B /* Activity.m */; settings = {ASSET_TAGS = (); }; };
 		A474B7631BD24DC9009A5F3B /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7571BD24DC9009A5F3B /* ActivityIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A474B7641BD24DC9009A5F3B /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7591BD24DC9009A5F3B /* Date.m */; settings = {ASSET_TAGS = (); }; };
@@ -91,6 +95,10 @@
 
 /* Begin PBXFileReference section */
 		89E2C3AE1BC92518001C1D01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A41216CB1BD6879C00208201 /* ColumnBarLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ColumnBarLeft@2x.png"; sourceTree = "<group>"; };
+		A41216CC1BD6879C00208201 /* ColumnBarRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ColumnBarRight@2x.png"; sourceTree = "<group>"; };
+		A41216CF1BD6993000208201 /* ColumnBarWidget.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColumnBarWidget.xib; sourceTree = "<group>"; };
+		A472300B1BD683A700B4CF4E /* NewsPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsPage.xib; sourceTree = "<group>"; };
 		A474B7541BD24DC9009A5F3B /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
 		A474B7551BD24DC9009A5F3B /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
 		A474B7561BD24DC9009A5F3B /* ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicator.h; sourceTree = "<group>"; };
@@ -234,6 +242,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A41216C61BD6874C00208201 /* ColumnBar */ = {
+			isa = PBXGroup;
+			children = (
+				A41216CB1BD6879C00208201 /* ColumnBarLeft@2x.png */,
+				A41216CC1BD6879C00208201 /* ColumnBarRight@2x.png */,
+			);
+			path = ColumnBar;
+			sourceTree = "<group>";
+		};
 		A474B7531BD24A24009A5F3B /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,6 +429,8 @@
 			children = (
 				A4C1BE661BCD46CE00A35706 /* LoginPage.xib */,
 				A474B7691BD2795B009A5F3B /* AdvertPage.xib */,
+				A472300B1BD683A700B4CF4E /* NewsPage.xib */,
+				A41216CF1BD6993000208201 /* ColumnBarWidget.xib */,
 			);
 			path = InterfaceBuilder;
 			sourceTree = "<group>";
@@ -419,6 +438,7 @@
 		A4C75BB01BC80C4F004264AA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A41216C61BD6874C00208201 /* ColumnBar */,
 				A4D89E041BD524CF00FC9655 /* TabBar */,
 				A4F129E81BD3CC230010148F /* NavBar */,
 				A4C75BA31BC80C08004264AA /* Assets.xcassets */,
@@ -598,12 +618,14 @@
 				A4D89E191BD524F200FC9655 /* NewsIcon@2x.png in Resources */,
 				A4D89E1B1BD524F200FC9655 /* ReaderIcon@2x.png in Resources */,
 				A4F129FA1BD3CCA80010148F /* NavigationBack@2x.png in Resources */,
+				A472300C1BD683A700B4CF4E /* NewsPage.xib in Resources */,
 				A4C1BE671BCD46CE00A35706 /* LoginPage.xib in Resources */,
 				A4F129F51BD3CCA80010148F /* NavBarAlpha.png in Resources */,
 				A4D89E1D1BD524F200FC9655 /* VoiceIcon@2x.png in Resources */,
 				A4D89E161BD524F200FC9655 /* DiscoveryIconSelect@2x.png in Resources */,
 				A4F129F91BD3CCA80010148F /* NavigationBar64@2x.png in Resources */,
 				A474B76A1BD2795B009A5F3B /* AdvertPage.xib in Resources */,
+				A41216D01BD6993000208201 /* ColumnBarWidget.xib in Resources */,
 				A4D89E181BD524F200FC9655 /* MyIconSelect@2x.png in Resources */,
 				A4F129F41BD3CCA80010148F /* NavBarIcon@2x.png in Resources */,
 				A4C1BE701BCD4C7100A35706 /* login_forgot_button@2x.png in Resources */,
@@ -614,6 +636,8 @@
 				A4D89E121BD524F200FC9655 /* tabbar_icon_media_highlight@2x.png in Resources */,
 				A4D89E141BD524F200FC9655 /* TabBarShadow@2x.png in Resources */,
 				A4F129FC1BD3CCA80010148F /* NavigationSquare@2x.png in Resources */,
+				A41216CE1BD6879C00208201 /* ColumnBarRight@2x.png in Resources */,
+				A41216CD1BD6879C00208201 /* ColumnBarLeft@2x.png in Resources */,
 				A4D89E031BD523EC00FC9655 /* TabBarPages.plist in Resources */,
 				A4C1BE721BCD4C7100A35706 /* login_username_icon@2x.png in Resources */,
 				A4D89E171BD524F200FC9655 /* MyIcon@2x.png in Resources */,

@@ -9,5 +9,9 @@
 #import "BaseController.h"
 
 @interface BaseWidget : BaseController
+@property(strong, nonatomic) NSMutableArray    *listData;
 
+- (void)updateUI;
+- (void)reloadData;
+- (BOOL)isReloadLocalData;
 @end

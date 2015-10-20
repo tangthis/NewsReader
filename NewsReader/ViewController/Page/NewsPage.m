@@ -10,8 +10,28 @@
 
 @implementation NewsPage
 
--(void)viewDidLoad
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidLoad];
+    [super viewDidAppear:animated];
+    if (_barWidget == nil) {
+        [self addBarWidget];
+    }
 }
+
+- (void)addBarWidget
+{
+    _barWidget = [[ColumnBarWidget alloc] init];
+    
+    _barWidget.delegate = self;
+    _barWidget.view.frame = _backBarView.bounds;
+    [_backBarView addSubview:_barWidget.view];
+    
+    [_backBarView sendSubviewToBack:_barWidget.view];
+}
+
+- (void)didSelect:(NSInteger)pageIndex
+{
+
+}
+
 @end

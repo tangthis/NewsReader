@@ -119,4 +119,8 @@
     [[UIApplication sharedApplication] setStatusBarStyle:style];
 }
 
+- (void)opSuccess:(id)data
+{
+    [self hideIndicator];
+}
 @end
