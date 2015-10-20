@@ -14,6 +14,9 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    [self setNavigationLeft:@"NavigationBell.png" sel:nil];
+    [self setNavigationRight:@"NavigationSquare.png"];
+    //[self setNavigationTitleImage:@"NavBarIcon.png"];
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -87,6 +90,14 @@
     [btn addTarget:self action:sel forControlEvents:UIControlEventTouchUpInside];
     
     return btn;
+}
+
+- (void)setNavigationTitleImage:(NSString *)imageName
+{
+    UIImage *image = [UIImage imageNamed:imageName];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    
+    self.navigationItem.titleView = imageView;
 }
 
 - (void)setNavigationLeft:(NSString *)imageName sel:(SEL)sel

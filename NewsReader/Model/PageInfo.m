@@ -55,7 +55,7 @@
         nav = [[UINavigationController alloc]initWithRootViewController:pageController];
         pageController.title = pageInfo.name;
         pageController.tabBarItem.image = [UIImage imageNamed:pageInfo.image];
-        [controllers addObject:pageController];
+        [controllers addObject:nav];
     }
     return controllers;
 }

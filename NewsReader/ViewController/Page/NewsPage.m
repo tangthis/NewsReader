@@ -10,4 +10,8 @@
 
 @implementation NewsPage
 
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+}
 @end
