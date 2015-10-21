@@ -13,24 +13,37 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z08-WT-cb9">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z08-WT-cb9">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="36"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ColumnBarLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="YG4-Wj-IR6">
                             <rect key="frame" x="0.0" y="0.0" width="45" height="36"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ColumnBarRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="grF-xN-A7j">
-                            <rect key="frame" x="275" y="0.0" width="45" height="36"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColumnBarRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="grF-xN-A7j">
+                            <rect key="frame" x="555" y="0.0" width="45" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="03V-ys-GjR"/>
+                                <constraint firstAttribute="width" constant="45" id="UPA-PS-CHR"/>
+                            </constraints>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="grF-xN-A7j" firstAttribute="top" secondItem="Z08-WT-cb9" secondAttribute="top" id="JZO-Ec-F0k"/>
+                        <constraint firstAttribute="trailing" secondItem="grF-xN-A7j" secondAttribute="trailing" id="W2i-Zj-2JJ"/>
+                        <constraint firstAttribute="height" constant="36" id="bCH-w6-8C9"/>
+                    </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Z08-WT-cb9" secondAttribute="trailing" id="EFj-ic-6oV"/>
+                <constraint firstItem="Z08-WT-cb9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lcf-Kv-g7u"/>
+                <constraint firstItem="Z08-WT-cb9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pdL-2p-WCd"/>
+            </constraints>
         </view>
     </objects>
     <resources>

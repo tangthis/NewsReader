@@ -13,15 +13,22 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NdW-D5-P8N">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NdW-D5-P8N">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="4sB-Ab-nQ8"/>
+                    </constraints>
                 </scrollView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="NdW-D5-P8N" secondAttribute="trailing" id="Ljg-bB-i3F"/>
+                <constraint firstItem="NdW-D5-P8N" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Prq-s2-04t"/>
+                <constraint firstItem="NdW-D5-P8N" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XlH-eC-vQO"/>
+            </constraints>
         </view>
     </objects>
 </document>
