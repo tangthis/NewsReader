@@ -8,6 +8,9 @@
 
 #import "BaseCell.h"
 
-@interface NewsCell : BaseCell
+@interface NewsCell : BaseCell{
+    IBOutlet UIImageView    *_imageView;
+    IBOutlet UILabel        *_descLabel;
+}
 
 @end

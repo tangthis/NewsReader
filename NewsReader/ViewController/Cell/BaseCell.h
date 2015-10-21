@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseInfo.h"
 
-@interface BaseCell : UITableViewCell
+@interface BaseCell : UITableViewCell{
+    IBOutlet UILabel        *_titleLabel;
+}
+
+@property(nonatomic, strong) BaseInfo   *cellInfo;
+
+- (void)initCell;
+- (void)setCellData:(BaseInfo *)info;
 
 @end

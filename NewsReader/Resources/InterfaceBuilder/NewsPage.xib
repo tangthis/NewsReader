@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsPage">
             <connections>
                 <outlet property="_backBarView" destination="Z08-WT-cb9" id="SC6-Pd-Wkh"/>
+                <outlet property="_tableView" destination="1dD-Di-m5j" id="mPC-hJ-hP9"/>
                 <outlet property="view" destination="iN0-l3-epB" id="yEh-d6-jJW"/>
             </connections>
         </placeholder>
@@ -37,12 +38,24 @@
                         <constraint firstAttribute="height" constant="36" id="bCH-w6-8C9"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1dD-Di-m5j" customClass="LandscapeTableView">
+                    <rect key="frame" x="0.0" y="36" width="600" height="564"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="XC7-lz-qGV"/>
+                        <outlet property="delegate" destination="-1" id="cvu-m1-Bum"/>
+                    </connections>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="1dD-Di-m5j" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4HM-tp-Gs6"/>
                 <constraint firstAttribute="trailing" secondItem="Z08-WT-cb9" secondAttribute="trailing" id="EFj-ic-6oV"/>
+                <constraint firstAttribute="bottom" secondItem="1dD-Di-m5j" secondAttribute="bottom" id="bl2-ih-Y1N"/>
                 <constraint firstItem="Z08-WT-cb9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lcf-Kv-g7u"/>
                 <constraint firstItem="Z08-WT-cb9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pdL-2p-WCd"/>
+                <constraint firstAttribute="trailing" secondItem="1dD-Di-m5j" secondAttribute="trailing" id="yku-LI-tMk"/>
+                <constraint firstItem="1dD-Di-m5j" firstAttribute="top" secondItem="Z08-WT-cb9" secondAttribute="bottom" id="zwg-fF-Pwu"/>
             </constraints>
         </view>
     </objects>

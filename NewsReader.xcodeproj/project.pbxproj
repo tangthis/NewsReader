@@ -11,6 +11,16 @@
 		A41216CD1BD6879C00208201 /* ColumnBarLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41216CB1BD6879C00208201 /* ColumnBarLeft@2x.png */; settings = {ASSET_TAGS = (); }; };
 		A41216CE1BD6879C00208201 /* ColumnBarRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41216CC1BD6879C00208201 /* ColumnBarRight@2x.png */; settings = {ASSET_TAGS = (); }; };
 		A41216D01BD6993000208201 /* ColumnBarWidget.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41216CF1BD6993000208201 /* ColumnBarWidget.xib */; settings = {ASSET_TAGS = (); }; };
+		A42A271C1BD7CF3A004C4DC1 /* LandscapeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42A271B1BD7CF3A004C4DC1 /* LandscapeTableView.m */; settings = {ASSET_TAGS = (); }; };
+		A42A271F1BD7CFC6004C4DC1 /* LandscapeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A42A271E1BD7CFC6004C4DC1 /* LandscapeCell.m */; settings = {ASSET_TAGS = (); }; };
+		A42A27221BD7D1C2004C4DC1 /* NewsLandscapeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A42A27211BD7D1C2004C4DC1 /* NewsLandscapeCell.m */; settings = {ASSET_TAGS = (); }; };
+		A42A27241BD7D4BB004C4DC1 /* NewsWidget.xib in Resources */ = {isa = PBXBuildFile; fileRef = A42A27231BD7D4BB004C4DC1 /* NewsWidget.xib */; settings = {ASSET_TAGS = (); }; };
+		A42A27261BD7DD76004C4DC1 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A42A27251BD7DD76004C4DC1 /* NewsCell.xib */; settings = {ASSET_TAGS = (); }; };
+		A42A27341BD7DFC0004C4DC1 /* Icon60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42A272F1BD7DFC0004C4DC1 /* Icon60@2x.png */; settings = {ASSET_TAGS = (); }; };
+		A42A27351BD7DFC0004C4DC1 /* NewsDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42A27301BD7DFC0004C4DC1 /* NewsDefault@2x.png */; settings = {ASSET_TAGS = (); }; };
+		A42A27361BD7DFC0004C4DC1 /* WeatherBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42A27311BD7DFC0004C4DC1 /* WeatherBack@2x.png */; settings = {ASSET_TAGS = (); }; };
+		A42A27371BD7DFC0004C4DC1 /* WeatherLocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42A27321BD7DFC0004C4DC1 /* WeatherLocation@2x.png */; settings = {ASSET_TAGS = (); }; };
+		A42A27381BD7DFC0004C4DC1 /* WeatherShare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42A27331BD7DFC0004C4DC1 /* WeatherShare@2x.png */; settings = {ASSET_TAGS = (); }; };
 		A472300C1BD683A700B4CF4E /* NewsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A472300B1BD683A700B4CF4E /* NewsPage.xib */; settings = {ASSET_TAGS = (); }; };
 		A474B7621BD24DC9009A5F3B /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7551BD24DC9009A5F3B /* Activity.m */; settings = {ASSET_TAGS = (); }; };
 		A474B7631BD24DC9009A5F3B /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A474B7571BD24DC9009A5F3B /* ActivityIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -98,6 +108,19 @@
 		A41216CB1BD6879C00208201 /* ColumnBarLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ColumnBarLeft@2x.png"; sourceTree = "<group>"; };
 		A41216CC1BD6879C00208201 /* ColumnBarRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ColumnBarRight@2x.png"; sourceTree = "<group>"; };
 		A41216CF1BD6993000208201 /* ColumnBarWidget.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColumnBarWidget.xib; sourceTree = "<group>"; };
+		A42A271A1BD7CF3A004C4DC1 /* LandscapeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeTableView.h; sourceTree = "<group>"; };
+		A42A271B1BD7CF3A004C4DC1 /* LandscapeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeTableView.m; sourceTree = "<group>"; };
+		A42A271D1BD7CFC6004C4DC1 /* LandscapeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeCell.h; sourceTree = "<group>"; };
+		A42A271E1BD7CFC6004C4DC1 /* LandscapeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeCell.m; sourceTree = "<group>"; };
+		A42A27201BD7D1C2004C4DC1 /* NewsLandscapeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsLandscapeCell.h; sourceTree = "<group>"; };
+		A42A27211BD7D1C2004C4DC1 /* NewsLandscapeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsLandscapeCell.m; sourceTree = "<group>"; };
+		A42A27231BD7D4BB004C4DC1 /* NewsWidget.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsWidget.xib; sourceTree = "<group>"; };
+		A42A27251BD7DD76004C4DC1 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		A42A272F1BD7DFC0004C4DC1 /* Icon60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon60@2x.png"; sourceTree = "<group>"; };
+		A42A27301BD7DFC0004C4DC1 /* NewsDefault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewsDefault@2x.png"; sourceTree = "<group>"; };
+		A42A27311BD7DFC0004C4DC1 /* WeatherBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WeatherBack@2x.png"; sourceTree = "<group>"; };
+		A42A27321BD7DFC0004C4DC1 /* WeatherLocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WeatherLocation@2x.png"; sourceTree = "<group>"; };
+		A42A27331BD7DFC0004C4DC1 /* WeatherShare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WeatherShare@2x.png"; sourceTree = "<group>"; };
 		A472300B1BD683A700B4CF4E /* NewsPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsPage.xib; sourceTree = "<group>"; };
 		A474B7541BD24DC9009A5F3B /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
 		A474B7551BD24DC9009A5F3B /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
@@ -251,6 +274,18 @@
 			path = ColumnBar;
 			sourceTree = "<group>";
 		};
+		A42A272C1BD7DF52004C4DC1 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				A42A272F1BD7DFC0004C4DC1 /* Icon60@2x.png */,
+				A42A27301BD7DFC0004C4DC1 /* NewsDefault@2x.png */,
+				A42A27311BD7DFC0004C4DC1 /* WeatherBack@2x.png */,
+				A42A27321BD7DFC0004C4DC1 /* WeatherLocation@2x.png */,
+				A42A27331BD7DFC0004C4DC1 /* WeatherShare@2x.png */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
 		A474B7531BD24A24009A5F3B /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +366,8 @@
 		A4C1BE281BCD382C00A35706 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				A42A271A1BD7CF3A004C4DC1 /* LandscapeTableView.h */,
+				A42A271B1BD7CF3A004C4DC1 /* LandscapeTableView.m */,
 				A4C1BE451BCD39C500A35706 /* BaseWidget.h */,
 				A4C1BE461BCD39C500A35706 /* BaseWidget.m */,
 				A4C1BE481BCD39DD00A35706 /* TableWidget.h */,
@@ -348,6 +385,10 @@
 		A4C1BE291BCD383900A35706 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				A42A27201BD7D1C2004C4DC1 /* NewsLandscapeCell.h */,
+				A42A27211BD7D1C2004C4DC1 /* NewsLandscapeCell.m */,
+				A42A271D1BD7CFC6004C4DC1 /* LandscapeCell.h */,
+				A42A271E1BD7CFC6004C4DC1 /* LandscapeCell.m */,
 				A4C1BE541BCD3A6900A35706 /* BaseCell.h */,
 				A4C1BE551BCD3A6900A35706 /* BaseCell.m */,
 				A4C1BE571BCD3ADD00A35706 /* NewsCell.h */,
@@ -431,6 +472,8 @@
 				A474B7691BD2795B009A5F3B /* AdvertPage.xib */,
 				A472300B1BD683A700B4CF4E /* NewsPage.xib */,
 				A41216CF1BD6993000208201 /* ColumnBarWidget.xib */,
+				A42A27231BD7D4BB004C4DC1 /* NewsWidget.xib */,
+				A42A27251BD7DD76004C4DC1 /* NewsCell.xib */,
 			);
 			path = InterfaceBuilder;
 			sourceTree = "<group>";
@@ -438,6 +481,7 @@
 		A4C75BB01BC80C4F004264AA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A42A272C1BD7DF52004C4DC1 /* Background */,
 				A41216C61BD6874C00208201 /* ColumnBar */,
 				A4D89E041BD524CF00FC9655 /* TabBar */,
 				A4F129E81BD3CC230010148F /* NavBar */,
@@ -610,10 +654,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42A27371BD7DFC0004C4DC1 /* WeatherLocation@2x.png in Resources */,
 				A4F129FB1BD3CCA80010148F /* NavigationBell@2x.png in Resources */,
 				A4F129F71BD3CCA80010148F /* NavBarWhite64@2x.png in Resources */,
 				A4F129F61BD3CCA80010148F /* NavBarWhite44@2x.png in Resources */,
 				A4C1BE6F1BCD4C7100A35706 /* login_button@2x.png in Resources */,
+				A42A27261BD7DD76004C4DC1 /* NewsCell.xib in Resources */,
 				A4D89E151BD524F200FC9655 /* DiscoveryIcon@2x.png in Resources */,
 				A4D89E191BD524F200FC9655 /* NewsIcon@2x.png in Resources */,
 				A4D89E1B1BD524F200FC9655 /* ReaderIcon@2x.png in Resources */,
@@ -622,6 +668,7 @@
 				A4C1BE671BCD46CE00A35706 /* LoginPage.xib in Resources */,
 				A4F129F51BD3CCA80010148F /* NavBarAlpha.png in Resources */,
 				A4D89E1D1BD524F200FC9655 /* VoiceIcon@2x.png in Resources */,
+				A42A27341BD7DFC0004C4DC1 /* Icon60@2x.png in Resources */,
 				A4D89E161BD524F200FC9655 /* DiscoveryIconSelect@2x.png in Resources */,
 				A4F129F91BD3CCA80010148F /* NavigationBar64@2x.png in Resources */,
 				A474B76A1BD2795B009A5F3B /* AdvertPage.xib in Resources */,
@@ -633,11 +680,15 @@
 				A4D89E1E1BD524F200FC9655 /* VoiceIconSelect@2x.png in Resources */,
 				A4D89E1A1BD524F200FC9655 /* NewsIconSelect@2x.png in Resources */,
 				A4C75BA41BC80C08004264AA /* Assets.xcassets in Resources */,
+				A42A27351BD7DFC0004C4DC1 /* NewsDefault@2x.png in Resources */,
 				A4D89E121BD524F200FC9655 /* tabbar_icon_media_highlight@2x.png in Resources */,
+				A42A27241BD7D4BB004C4DC1 /* NewsWidget.xib in Resources */,
 				A4D89E141BD524F200FC9655 /* TabBarShadow@2x.png in Resources */,
 				A4F129FC1BD3CCA80010148F /* NavigationSquare@2x.png in Resources */,
 				A41216CE1BD6879C00208201 /* ColumnBarRight@2x.png in Resources */,
+				A42A27361BD7DFC0004C4DC1 /* WeatherBack@2x.png in Resources */,
 				A41216CD1BD6879C00208201 /* ColumnBarLeft@2x.png in Resources */,
+				A42A27381BD7DFC0004C4DC1 /* WeatherShare@2x.png in Resources */,
 				A4D89E031BD523EC00FC9655 /* TabBarPages.plist in Resources */,
 				A4C1BE721BCD4C7100A35706 /* login_username_icon@2x.png in Resources */,
 				A4D89E171BD524F200FC9655 /* MyIcon@2x.png in Resources */,
@@ -673,6 +724,7 @@
 				89E2C3AF1BC92518001C1D01 /* README.md in Sources */,
 				A4C1BE531BCD3A2400A35706 /* ReaderWidget.m in Sources */,
 				A474B7641BD24DC9009A5F3B /* Date.m in Sources */,
+				A42A271F1BD7CFC6004C4DC1 /* LandscapeCell.m in Sources */,
 				A4C1BE4D1BCD3A0B00A35706 /* ColumnBarWidget.m in Sources */,
 				A4C1BE5F1BCD3C6400A35706 /* UserInfo.m in Sources */,
 				A4C1BE4A1BCD39DD00A35706 /* TableWidget.m in Sources */,
@@ -682,9 +734,11 @@
 				A4C1BE321BCD390100A35706 /* AdvertPage.m in Sources */,
 				A491313C1BCA8E8100511F97 /* ColumnInfo.m in Sources */,
 				A4C75B991BC80C08004264AA /* main.m in Sources */,
+				A42A271C1BD7CF3A004C4DC1 /* LandscapeTableView.m in Sources */,
 				A49131321BCA531C00511F97 /* JsonWriter.m in Sources */,
 				A474B76F1BD28119009A5F3B /* Global.m in Sources */,
 				A491312F1BCA531C00511F97 /* JsonBase.m in Sources */,
+				A42A27221BD7D1C2004C4DC1 /* NewsLandscapeCell.m in Sources */,
 				A474B7621BD24DC9009A5F3B /* Activity.m in Sources */,
 				A49131311BCA531C00511F97 /* JsonUtility.m in Sources */,
 				A491312E1BCA531C00511F97 /* JSON.m in Sources */,

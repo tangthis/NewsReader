@@ -6,8 +6,13 @@
 //  Copyright © 2015年 tangtech. All rights reserved.
 //
 
-#import "BaseWidget.h"
+#import "TableWidget.h"
+#import "ColumnInfo.h"
+@interface NewsWidget : TableWidget{
+    BOOL        _hasNextPage;
+    NSInteger   _pageIndex;
+}
 
-@interface NewsWidget : BaseWidget
+@property(nonatomic, strong) ColumnInfo   *columnInfo;
 
 @end

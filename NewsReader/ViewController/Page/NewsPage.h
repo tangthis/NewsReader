@@ -8,10 +8,12 @@
 
 #import "BasePage.h"
 #import "ColumnBarWidget.h"
+#import "LandscapeTableView.h"
 @interface NewsPage : BasePage{
     
     IBOutlet UIView *_backBarView;
     ColumnBarWidget *_barWidget;
+    IBOutlet LandscapeTableView   *_tableView;
 }
 
 @end

@@ -9,5 +9,13 @@
 #import "BaseCell.h"
 
 @implementation BaseCell
+- (void)initCell
+{
+}
 
+- (void)setCellData:(BaseInfo *)info
+{
+    self.cellInfo = info;
+    _titleLabel.text = info.name;
+}
 @end

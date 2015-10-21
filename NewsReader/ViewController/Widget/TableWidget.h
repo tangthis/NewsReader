@@ -8,6 +8,12 @@
 
 #import "BaseWidget.h"
 
-@interface TableWidget : BaseWidget
+@interface TableWidget : BaseWidget{
+    IBOutlet UITableView     *_tableView;
+    CGFloat                 _cellHeight;
+}
+
+@property(nonatomic, strong) NSString   *cellIdentifier;
+@property(nonatomic, assign) id         owner;
 
 @end
