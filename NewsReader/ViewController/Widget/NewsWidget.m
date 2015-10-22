@@ -116,7 +116,6 @@
         cell = [Objects objectAtIndex:0];
         [cell initCell];
     }
-    
     [cell setCellData:info];
     
     return cell;

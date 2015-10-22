@@ -14,22 +14,42 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NewsDefault.png" translatesAutoresizingMaskIntoConstraints="NO" id="INM-43-hje">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NewsDefault.png" translatesAutoresizingMaskIntoConstraints="NO" id="INM-43-hje">
                         <rect key="frame" x="10" y="10" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="KeV-El-9L5"/>
+                            <constraint firstAttribute="width" constant="60" id="wUd-sB-NzU"/>
+                        </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BwP-Cu-AGG">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="NewsCell" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BwP-Cu-AGG">
                         <rect key="frame" x="78" y="10" width="234" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="BHf-6k-MHx"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GT6-5h-A8a">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GT6-5h-A8a">
                         <rect key="frame" x="78" y="39" width="234" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="pLp-mQ-8Ge"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="GT6-5h-A8a" firstAttribute="leading" secondItem="INM-43-hje" secondAttribute="trailing" constant="8" id="3nq-58-kd6"/>
+                    <constraint firstItem="INM-43-hje" firstAttribute="top" secondItem="QpL-Hv-gKM" secondAttribute="top" constant="10" id="DT0-d8-FPE"/>
+                    <constraint firstItem="GT6-5h-A8a" firstAttribute="top" secondItem="BwP-Cu-AGG" secondAttribute="bottom" constant="8" id="JXZ-Cg-1Ue"/>
+                    <constraint firstItem="BwP-Cu-AGG" firstAttribute="leading" secondItem="INM-43-hje" secondAttribute="trailing" constant="8" id="Wjw-VL-flc"/>
+                    <constraint firstItem="INM-43-hje" firstAttribute="leading" secondItem="QpL-Hv-gKM" secondAttribute="leading" constant="10" id="Y8Z-fJ-6LL"/>
+                    <constraint firstAttribute="trailing" secondItem="BwP-Cu-AGG" secondAttribute="trailing" constant="8" id="YXb-pE-44C"/>
+                    <constraint firstAttribute="trailing" secondItem="GT6-5h-A8a" secondAttribute="trailing" constant="8" id="luo-Bk-28k"/>
+                    <constraint firstItem="BwP-Cu-AGG" firstAttribute="top" secondItem="QpL-Hv-gKM" secondAttribute="top" constant="10" id="rG5-bi-ln9"/>
+                </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="_descLabel" destination="GT6-5h-A8a" id="JdR-pL-aXy"/>
