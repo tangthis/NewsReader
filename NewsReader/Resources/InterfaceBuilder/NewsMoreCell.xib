@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsMoreCell" id="0vG-ZE-a3Q" customClass="NewsMoreCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0vG-ZE-a3Q" id="zS0-Dr-0nS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="NewsCell" text="正在载入" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrM-85-WI4">
+                        <rect key="frame" x="0.0" y="10" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Ve6-1c-eBh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="iFQ-UZ-IqT">
+                        <rect key="frame" x="94" y="10" width="20" height="20"/>
+                    </activityIndicatorView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qrM-85-WI4" firstAttribute="top" secondItem="zS0-Dr-0nS" secondAttribute="top" constant="10" id="dmd-Jb-d0m"/>
+                    <constraint firstAttribute="trailing" secondItem="qrM-85-WI4" secondAttribute="trailing" id="q7R-sC-FvK"/>
+                    <constraint firstItem="qrM-85-WI4" firstAttribute="leading" secondItem="zS0-Dr-0nS" secondAttribute="leading" id="wgG-j7-avT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="321" y="256"/>
+        </tableViewCell>
+    </objects>
+</document>

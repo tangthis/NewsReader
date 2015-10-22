@@ -76,6 +76,8 @@
 		A4C75B991BC80C08004264AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B981BC80C08004264AA /* main.m */; };
 		A4C75B9C1BC80C08004264AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C75B9B1BC80C08004264AA /* AppDelegate.m */; };
 		A4C75BA41BC80C08004264AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C75BA31BC80C08004264AA /* Assets.xcassets */; };
+		A4CAA5FD1BD9282C008711AD /* NewsMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4CAA5FC1BD9282C008711AD /* NewsMoreCell.xib */; settings = {ASSET_TAGS = (); }; };
+		A4CAA6001BD92A11008711AD /* NewsMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CAA5FF1BD92A11008711AD /* NewsMoreCell.m */; settings = {ASSET_TAGS = (); }; };
 		A4D89E031BD523EC00FC9655 /* TabBarPages.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4D89E021BD523EC00FC9655 /* TabBarPages.plist */; settings = {ASSET_TAGS = (); }; };
 		A4D89E121BD524F200FC9655 /* tabbar_icon_media_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D89E051BD524F200FC9655 /* tabbar_icon_media_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
 		A4D89E131BD524F200FC9655 /* tabbar_icon_media_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D89E061BD524F200FC9655 /* tabbar_icon_media_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
@@ -226,6 +228,9 @@
 		A4C75BA31BC80C08004264AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C75BA81BC80C08004264AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C75BBF1BC81474004264AA /* NewsReaderPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsReaderPrefixHeader.pch; sourceTree = "<group>"; };
+		A4CAA5FC1BD9282C008711AD /* NewsMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsMoreCell.xib; sourceTree = "<group>"; };
+		A4CAA5FE1BD92A11008711AD /* NewsMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsMoreCell.h; sourceTree = "<group>"; };
+		A4CAA5FF1BD92A11008711AD /* NewsMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsMoreCell.m; sourceTree = "<group>"; };
 		A4D89E021BD523EC00FC9655 /* TabBarPages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBarPages.plist; sourceTree = "<group>"; };
 		A4D89E051BD524F200FC9655 /* tabbar_icon_media_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_media_highlight@2x.png"; sourceTree = "<group>"; };
 		A4D89E061BD524F200FC9655 /* tabbar_icon_media_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icon_media_normal@2x.png"; sourceTree = "<group>"; };
@@ -395,6 +400,8 @@
 				A4C1BE581BCD3ADD00A35706 /* NewsCell.m */,
 				A4C1BE5A1BCD3AE800A35706 /* ReaderCell.h */,
 				A4C1BE5B1BCD3AE800A35706 /* ReaderCell.m */,
+				A4CAA5FE1BD92A11008711AD /* NewsMoreCell.h */,
+				A4CAA5FF1BD92A11008711AD /* NewsMoreCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -474,6 +481,7 @@
 				A41216CF1BD6993000208201 /* ColumnBarWidget.xib */,
 				A42A27231BD7D4BB004C4DC1 /* NewsWidget.xib */,
 				A42A27251BD7DD76004C4DC1 /* NewsCell.xib */,
+				A4CAA5FC1BD9282C008711AD /* NewsMoreCell.xib */,
 			);
 			path = InterfaceBuilder;
 			sourceTree = "<group>";
@@ -691,6 +699,7 @@
 				A42A27381BD7DFC0004C4DC1 /* WeatherShare@2x.png in Resources */,
 				A4D89E031BD523EC00FC9655 /* TabBarPages.plist in Resources */,
 				A4C1BE721BCD4C7100A35706 /* login_username_icon@2x.png in Resources */,
+				A4CAA5FD1BD9282C008711AD /* NewsMoreCell.xib in Resources */,
 				A4D89E171BD524F200FC9655 /* MyIcon@2x.png in Resources */,
 				A4F129F31BD3CCA80010148F /* NavigationBackBlack@2x.png in Resources */,
 				A4D89E1C1BD524F200FC9655 /* ReaderIconSelect@2x.png in Resources */,
@@ -744,6 +753,7 @@
 				A491312E1BCA531C00511F97 /* JSON.m in Sources */,
 				A4C1BE471BCD39C500A35706 /* BaseWidget.m in Sources */,
 				A491315B1BCABA6E00511F97 /* GetAdvert.m in Sources */,
+				A4CAA6001BD92A11008711AD /* NewsMoreCell.m in Sources */,
 				A474B7651BD24DC9009A5F3B /* AppSetting.m in Sources */,
 				A474B7731BD284C9009A5F3B /* GetImage.m in Sources */,
 				A4C1BE3B1BCD393300A35706 /* VoicePage.m in Sources */,
