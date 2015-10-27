@@ -24,6 +24,8 @@ Model:DTO(数据传输对象)<br/>
 ViewModel:用户输入验证逻辑，视图显示逻辑，发起网络请求和其他各种各样的代码<br/>
 View:就是ViewController层，它的任务就是从ViewModel层获取数据，然后显示
 
+###截图
+![image](https://github.com/tangthis/NewsReader/blob/web/NewsReader/Resources/Images/NewsReader3.gif)
 
 ## If you have a better suggestion,Please share out,Let's do better.
 > Author : tangthis
