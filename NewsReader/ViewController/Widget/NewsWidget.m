@@ -9,6 +9,7 @@
 #import "NewsWidget.h"
 #import "GetNews.h"
 #import "BaseCell.h"
+#import "DetailPage.h"
 
 @implementation NewsWidget
 
@@ -123,12 +124,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    DetailPage *page = [[DetailPage alloc] init];
-//    
-//    page.newsInfo = [self.listData objectAtIndex:indexPath.row];
-//    page.hidesBottomBarWhenPushed = YES;
-//    
-//    UIViewController *owner =  self.owner;
-//    [owner.navigationController pushViewController:page animated:YES];
+    DetailPage *page = [[DetailPage alloc] init];
+    
+    page.newsInfo = [self.listData objectAtIndex:indexPath.row];
+    page.hidesBottomBarWhenPushed = YES;
+    
+    UIViewController *owner =  self.owner;
+    [owner.navigationController pushViewController:page animated:YES];
 }
 @end

@@ -123,4 +123,10 @@
 {
     [self hideIndicator];
 }
+
+- (IBAction)doBack:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end

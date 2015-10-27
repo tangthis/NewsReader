@@ -6,8 +6,11 @@
 //  Copyright © 2015年 tangtech. All rights reserved.
 //
 
-#import "BasePage.h"
+#import "WebViewController.h"
+#import "NewsInfo.h"
 
-@interface DetailPage : BasePage
+@interface DetailPage : WebViewController
+
+@property(nonatomic, strong) NewsInfo   *newsInfo;
 
 @end
